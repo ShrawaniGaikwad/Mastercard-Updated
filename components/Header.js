@@ -79,6 +79,7 @@ function NavLinks({ mobile = false }) {
             <Link href="/about" className={linkClass}>About Us</Link>
             <Link href="/projects" className={linkClass}>Projects</Link>
             <Link href="/contact" className={linkClass}>Contact</Link>
+            <Link href="/signup" className={linkClass}>Signup</Link>
         </>
     );
 }
