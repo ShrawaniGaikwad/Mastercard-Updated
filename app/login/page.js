@@ -2,8 +2,8 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { getAuth, signInWithEmailAndPassword, sendPasswordResetEmail } from "firebase/auth";
-import { app } from "../firebase";
+import { signInWithEmailAndPassword, sendPasswordResetEmail } from "firebase/auth";
+import { auth } from "../firebase";  
 
 export default function LoginPage() {
   const [email, setEmail] = useState("");
@@ -12,7 +12,6 @@ export default function LoginPage() {
   const [successMessage, setSuccessMessage] = useState(null);
   const [isResettingPassword, setIsResettingPassword] = useState(false);
   const router = useRouter();
-  const auth = getAuth(app);
 
   const handleLogin = async (e) => {
     e.preventDefault();
