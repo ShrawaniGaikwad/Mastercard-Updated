@@ -13,8 +13,8 @@ A modern, responsive website for NGOs built with Next.js and styled using Tailwi
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/TanmayBansode/mastercard-frontend
-   cd mastercard-frontend
+   git clone https://github.com/ShrawaniGaikwad/Mastercard-Updated
+   cd Mastercard-Updated
    ```
 
 2. Install dependencies:
